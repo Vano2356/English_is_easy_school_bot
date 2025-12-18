@@ -46,7 +46,7 @@ class Config:
     RETRY_EXERCISES_PER_SESSION = 2  # Сколько упражнений на ошибки за сессию
     
     # Настройки AI
-    AI_MODEL = 'claude-sonnet-4-20250514'
+    AI_MODEL = 'deepseek/deepseek-r1-0528:free'
     AI_MAX_TOKENS = 1000
     AI_TEMPERATURE = 0.7
     

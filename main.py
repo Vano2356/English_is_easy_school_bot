@@ -1,8 +1,6 @@
-"""
-Главный файл телеграм-бота для изучения английского языка
-"""
 import asyncio
 import logging
+import sys
 from aiogram import Bot, Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
 
@@ -26,7 +24,14 @@ async def main():
     """
     # Инициализация конфигурации
     config = Config()
-    
+
+    # Валидация конфигурации — даст понятную ошибку, если чего-то нет
+    try:
+        Config.validate()
+    except Exception as e:
+        logger.critical(f"Конфигурация некорректна: {e}", exc_info=True)
+        return
+
     logger.info("Запуск бота...")
     
     # Создание бота и диспетчера
