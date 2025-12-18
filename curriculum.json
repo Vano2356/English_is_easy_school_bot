@@ -1,0 +1,132 @@
+{
+  "A1": {
+    "level_name": "Beginner",
+    "description": "Базовый уровень для начинающих",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Present Simple & Daily Routine",
+        "topics": ["present_simple", "daily_routines", "time_expressions"],
+        "key_grammar": ["verb_to_be", "present_simple_affirmative", "present_simple_negative"],
+        "key_vocabulary": ["wake_up", "have_breakfast", "go_to_school", "do_homework"],
+        "difficulty": "easy"
+      },
+      {
+        "id": 2,
+        "title": "Food & Countable/Uncountable Nouns",
+        "topics": ["food", "countable_nouns", "uncountable_nouns"],
+        "key_grammar": ["some_any", "much_many", "a_an"],
+        "key_vocabulary": ["apple", "bread", "milk", "water", "vegetables"],
+        "difficulty": "easy"
+      },
+      {
+        "id": 3,
+        "title": "Family & Possessives",
+        "topics": ["family_members", "possessive_adjectives", "possessive_s"],
+        "key_grammar": ["possessive_adjectives", "possessive_s", "whose"],
+        "key_vocabulary": ["mother", "father", "sister", "brother", "grandmother"],
+        "difficulty": "easy"
+      },
+      {
+        "id": 4,
+        "title": "Present Continuous & Activities",
+        "topics": ["present_continuous", "activities", "time_now"],
+        "key_grammar": ["present_continuous_form", "ing_form", "time_expressions_now"],
+        "key_vocabulary": ["playing", "reading", "watching", "listening", "cooking"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 5,
+        "title": "Past Simple & Irregular Verbs",
+        "topics": ["past_simple", "irregular_verbs", "time_expressions_past"],
+        "key_grammar": ["past_simple_regular", "past_simple_irregular", "was_were"],
+        "key_vocabulary": ["went", "saw", "did", "had", "made"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 6,
+        "title": "There is/There are & Places",
+        "topics": ["there_is_are", "places", "prepositions_of_place"],
+        "key_grammar": ["there_is_are", "questions_with_there", "some_any_places"],
+        "key_vocabulary": ["school", "park", "shop", "hospital", "museum"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 7,
+        "title": "Can/Can't & Abilities",
+        "topics": ["modal_can", "abilities", "requests"],
+        "key_grammar": ["can_ability", "can_permission", "can_requests"],
+        "key_vocabulary": ["swim", "ride_a_bike", "play_piano", "speak_english"],
+        "difficulty": "easy"
+      },
+      {
+        "id": 8,
+        "title": "Comparatives & Adjectives",
+        "topics": ["comparatives", "adjectives", "comparisons"],
+        "key_grammar": ["comparative_er", "more_adjective", "than"],
+        "key_vocabulary": ["big", "small", "tall", "short", "beautiful"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 9,
+        "title": "Future Simple & Plans",
+        "topics": ["future_simple", "will", "plans"],
+        "key_grammar": ["will_future", "going_to", "time_expressions_future"],
+        "key_vocabulary": ["tomorrow", "next_week", "will_visit", "going_to_study"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 10,
+        "title": "Questions & Question Words",
+        "topics": ["wh_questions", "yes_no_questions", "question_formation"],
+        "key_grammar": ["what_where_when", "who_why_how", "do_does_questions"],
+        "key_vocabulary": ["what", "where", "when", "who", "why", "how"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 11,
+        "title": "Adverbs of Frequency",
+        "topics": ["adverbs_frequency", "habits", "routines"],
+        "key_grammar": ["always_usually", "often_sometimes", "never_rarely"],
+        "key_vocabulary": ["always", "usually", "often", "sometimes", "never"],
+        "difficulty": "easy"
+      },
+      {
+        "id": 12,
+        "title": "Review & Practical Dialogues",
+        "topics": ["review_all", "dialogues", "practical_situations"],
+        "key_grammar": ["all_previous_grammar"],
+        "key_vocabulary": ["all_previous_vocabulary"],
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "A2": {
+    "level_name": "Elementary",
+    "description": "Элементарный уровень",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Present Perfect & Life Experience",
+        "topics": ["present_perfect", "ever_never", "life_experiences"],
+        "key_grammar": ["present_perfect_form", "have_has_past_participle", "for_since"],
+        "key_vocabulary": ["been", "done", "seen", "visited", "tried"],
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "B1": {
+    "level_name": "Intermediate",
+    "description": "Средний уровень",
+    "modules": [
+      {
+        "id": 1,
+        "title": "Conditionals & Hypothetical Situations",
+        "topics": ["first_conditional", "second_conditional", "if_clauses"],
+        "key_grammar": ["if_present_will", "if_past_would", "unless"],
+        "key_vocabulary": ["if", "unless", "would", "could", "might"],
+        "difficulty": "hard"
+      }
+    ]
+  }
+}
