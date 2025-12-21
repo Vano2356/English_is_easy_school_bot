@@ -1,4 +1,4 @@
-
+﻿
 import os
 from pathlib import Path
 from dotenv import load_dotenv
@@ -8,13 +8,11 @@ load_dotenv()
 
 
 class Config:
-    """
-    Класс конфигурации приложения
-    """
     
+
     # Токены и ключи
     BOT_TOKEN = os.getenv('BOT_TOKEN', 'YOUR_TELEGRAM_BOT_TOKEN')
-    ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY', 'YOUR_ANTHROPIC_API_KEY')
+    OPENROUTER_API_KEY = os.getenv('OPENROUTER_API_KEY', 'YOUR_OPENROUTER_API_KEY')
     
     # Пути к файлам и директориям
     BASE_DIR = Path(__file__).parent
@@ -46,13 +44,13 @@ class Config:
     RETRY_EXERCISES_PER_SESSION = 2  # Сколько упражнений на ошибки за сессию
     
     # Настройки AI
-    AI_MODEL = 'deepseek/deepseek-r1-0528:free'
+    AI_MODEL = 'tngtech/deepseek-r1t2-chimera:free'
     AI_MAX_TOKENS = 1000
     AI_TEMPERATURE = 0.7
     
     # Тексты для пользователя
     WELCOME_MESSAGE = """
-👋 Привет! Я твой персональный помощник по английскому языку.
+Привет! Я твой персональный помощник по английскому языку.
 
 Я помогу тебе:
 • Определить твой текущий уровень
@@ -64,14 +62,14 @@ class Config:
 """
     
     MODULE_COMPLETE_MESSAGE = """
-📊 Итоги модуля {module_number}/12:
+Итоги модуля {module_number}/12:
 ━━━━━━━━━━━━━━━━━━━━
-✅ Правильных ответов: {correct}/{total}
-📚 Новых слов выучено: {new_words}
-💪 Твоя сильная сторона: {strength}
-🎯 Над чем поработать: {weakness}
+Правильных ответов: {correct}/{total}
+Новых слов выучено: {new_words}
+Твоя сильная сторона: {strength}
+Над чем поработать: {weakness}
 
-Продолжаем? 🚀
+Продолжаем?
 """
     
     @classmethod
@@ -80,8 +78,8 @@ class Config:
         if cls.BOT_TOKEN == 'YOUR_TELEGRAM_BOT_TOKEN':
             raise ValueError("Не установлен BOT_TOKEN в .env файле")
         
-        if cls.ANTHROPIC_API_KEY == 'YOUR_ANTHROPIC_API_KEY':
-            raise ValueError("Не установлен ANTHROPIC_API_KEY в .env файле")
+        if cls.OPENROUTER_API_KEY == 'YOUR_OPENROUTER_API_KEY':
+            raise ValueError("Не установлен OPENROUTER_API_KEY в .env файле")
         
         if not cls.CURRICULUM_PATH.exists():
             raise FileNotFoundError(f"Не найден файл curriculum.json по пути {cls.CURRICULUM_PATH}")

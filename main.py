@@ -1,6 +1,8 @@
+﻿
+
+
 import asyncio
 import logging
-import sys
 from aiogram import Bot, Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
 
@@ -9,6 +11,7 @@ from handlers import start_handler, test_handler, lesson_handler, progress_handl
 from modules.expert_system import ExpertSystem
 from modules.ai_integration import AIIntegration
 from modules.user_manager import UserManager
+from middlewares import DependenciesMiddleware
 
 # Настройка логирования
 logging.basicConfig(
@@ -19,19 +22,12 @@ logger = logging.getLogger(__name__)
 
 
 async def main():
-    """
-    Основная функция запуска бота
-    """
+    
+
+
     # Инициализация конфигурации
     config = Config()
-
-    # Валидация конфигурации — даст понятную ошибку, если чего-то нет
-    try:
-        Config.validate()
-    except Exception as e:
-        logger.critical(f"Конфигурация некорректна: {e}", exc_info=True)
-        return
-
+    
     logger.info("Запуск бота...")
     
     # Создание бота и диспетчера
@@ -45,8 +41,8 @@ async def main():
     # Экспертная система (управляет логикой адаптации)
     expert_system = ExpertSystem(curriculum_path=config.CURRICULUM_PATH)
     
-    # Интеграция с Claude AI
-    ai_integration = AIIntegration(api_key=config.ANTHROPIC_API_KEY)
+    # Интеграция с openrouter AI
+    ai_integration = AIIntegration(api_key=config.OPENROUTER_API_KEY)
     
     # Менеджер пользователей
     user_manager = UserManager(users_dir=config.USERS_DIR)
@@ -83,9 +79,9 @@ async def main():
 
 
 if __name__ == '__main__':
-    """
-    Точка входа в приложение
-    """
+    
+
+
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
