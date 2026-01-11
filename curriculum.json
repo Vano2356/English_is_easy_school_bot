@@ -112,6 +112,94 @@
         "key_grammar": ["present_perfect_form", "have_has_past_participle", "for_since"],
         "key_vocabulary": ["been", "done", "seen", "visited", "tried"],
         "difficulty": "medium"
+      },
+      {
+        "id": 2,
+        "title": "Past Continuous & Interrupted Actions",
+        "topics": ["past_continuous", "interrupted_past", "background_actions"],
+        "key_grammar": ["was_were_ing", "while_when", "past_simple_vs_continuous"],
+        "key_vocabulary": ["walking", "cooking", "sleeping", "raining", "calling"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 3,
+        "title": "Quantifiers: Much, Many, A Lot Of",
+        "topics": ["quantifiers", "countable_uncountable_review", "shopping"],
+        "key_grammar": ["much_many", "a_lot_of", "a_few_a_little"],
+        "key_vocabulary": ["rice", "eggs", "butter", "cookies", "juice"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 4,
+        "title": "Modal Verbs: Must, Should, Have to",
+        "topics": ["obligation", "advice", "necessity"],
+        "key_grammar": ["must_vs_have_to", "should_for_advice", "don’t_have_to"],
+        "key_vocabulary": ["must", "should", "have_to", "need_to", "ought_to"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 5,
+        "title": "Superlatives & Descriptions",
+        "topics": ["superlatives", "describing_places", "opinions"],
+        "key_grammar": ["the_most", "the_er", "irregular_superlatives"],
+        "key_vocabulary": ["best", "worst", "most_beautiful", "least_expensive", "highest"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 6,
+        "title": "Future: Present Continuous for Arrangements",
+        "topics": ["future_arrangements", "diary_language", "plans"],
+        "key_grammar": ["present_continuous_future", "timetables", "fixed_plans"],
+        "key_vocabulary": ["meeting", "appointment", "leaving", "arriving", "booking"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 7,
+        "title": "Common Phrasal Verbs",
+        "topics": ["phrasal_verbs", "everyday_english", "separable_verbs"],
+        "key_grammar": ["get_up", "turn_on_off", "look_for", "give_up", "put_on"],
+        "key_vocabulary": ["get up", "turn on", "look after", "pick up", "take off"],
+        "difficulty": "hard"
+      },
+      {
+        "id": 8,
+        "title": "Describing People: Appearance & Personality",
+        "topics": ["appearance", "personality_adjectives", "character"],
+        "key_grammar": ["adjective_order", "linking_verbs", "relative_clauses_basic"],
+        "key_vocabulary": ["tall", "curly", "friendly", "shy", "outgoing"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 9,
+        "title": "Used to / Didn’t use to",
+        "topics": ["past_habits", "childhood", "changes_over_time"],
+        "key_grammar": ["used_to_positive", "used_to_negative", "did_you_use_to"],
+        "key_vocabulary": ["live", "play", "go", "have", "wear"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 10,
+        "title": "Indefinite Pronouns",
+        "topics": ["somebody_anybody", "everyone_nothing", "pronoun_usage"],
+        "key_grammar": ["somebody_anybody", "everything_nothing", "nobody_nowhere"],
+        "key_vocabulary": ["someone", "anywhere", "nothing", "everyone", "nowhere"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 11,
+        "title": "Travel & Directions",
+        "topics": ["travel", "asking_directions", "transport"],
+        "key_grammar": ["imperatives", "prepositions_of_place", "can_could_for_help"],
+        "key_vocabulary": ["airport", "platform", "turn_left", "go_straight", "ticket"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 12,
+        "title": "A2 Review & Practical Communication",
+        "topics": ["review_all", "real_situations", "dialogues"],
+        "key_grammar": ["all_A2_grammar"],
+        "key_vocabulary": ["all_A2_vocabulary"],
+        "difficulty": "medium"
       }
     ]
   },
@@ -125,6 +213,94 @@
         "topics": ["first_conditional", "second_conditional", "if_clauses"],
         "key_grammar": ["if_present_will", "if_past_would", "unless"],
         "key_vocabulary": ["if", "unless", "would", "could", "might"],
+        "difficulty": "hard"
+      },
+      {
+        "id": 2,
+        "title": "Passive Voice",
+        "topics": ["passive_voice", "processes", "news_style"],
+        "key_grammar": ["present_passive", "past_passive", "future_passive"],
+        "key_vocabulary": ["made", "built", "written", "produced", "invented"],
+        "difficulty": "hard"
+      },
+      {
+        "id": 3,
+        "title": "Reported Speech",
+        "topics": ["reported_statements", "reported_questions", "tense_shift"],
+        "key_grammar": ["said_that", "asked_if", "told_to"],
+        "key_vocabulary": ["said", "told", "asked", "explained", "replied"],
+        "difficulty": "hard"
+      },
+      {
+        "id": 4,
+        "title": "Relative Clauses",
+        "topics": ["defining_clauses", "non_defining_clauses", "relative_pronouns"],
+        "key_grammar": ["who_which_that", "whose", "where"],
+        "key_vocabulary": ["person", "place", "thing", "reason", "time"],
+        "difficulty": "hard"
+      },
+      {
+        "id": 5,
+        "title": "Present Perfect Continuous",
+        "topics": ["duration", "recent_activities", "ongoing_results"],
+        "key_grammar": ["have_been_ing", "for_since", "PPC_vs_PPS"],
+        "key_vocabulary": ["waiting", "working", "studying", "raining", "living"],
+        "difficulty": "hard"
+      },
+      {
+        "id": 6,
+        "title": "Wish & Regret",
+        "topics": ["wishes_present", "regrets_past", "if_only"],
+        "key_grammar": ["wish_past_simple", "wish_past_perfect", "if_only"],
+        "key_vocabulary": ["wish", "if_only", "could", "were", "had"],
+        "difficulty": "hard"
+      },
+      {
+        "id": 7,
+        "title": "Gerunds and Infinitives",
+        "topics": ["verb_patterns", "like_love_hate", "remember_forget"],
+        "key_grammar": ["verb_gerund", "verb_to_infinitive", "both_forms_different_meaning"],
+        "key_vocabulary": ["enjoy", "avoid", "decide", "hope", "suggest"],
+        "difficulty": "hard"
+      },
+      {
+        "id": 8,
+        "title": "Articles and Abstract Nouns",
+        "topics": ["definite_article", "indefinite_article", "zero_article"],
+        "key_grammar": ["the_with_unique", "a_an_with_jobs", "no_article_general"],
+        "key_vocabulary": ["happiness", "technology", "universe", "society", "peace"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 9,
+        "title": "Narrative Tenses",
+        "topics": ["storytelling", "past_tenses_combination", "sequence_of_events"],
+        "key_grammar": ["past_simple", "past_continuous", "past_perfect"],
+        "key_vocabulary": ["suddenly", "already", "just", "by_then", "meanwhile"],
+        "difficulty": "hard"
+      },
+      {
+        "id": 10,
+        "title": "Expressing Opinions",
+        "topics": ["agreeing", "disagreeing", "giving_opinions"],
+        "key_grammar": ["I_think", "in_my_opinion", "so_do_I_neither_do_I"],
+        "key_vocabulary": ["agree", "disagree", "believe", "point_of_view", "on_the_other_hand"],
+        "difficulty": "medium"
+      },
+      {
+        "id": 11,
+        "title": "Causative Verbs",
+        "topics": ["have_something_done", "get_something_done", "services"],
+        "key_grammar": ["have_obj_past_participle", "get_obj_past_participle"],
+        "key_vocabulary": ["cut", "fixed", "cleaned", "painted", "repaired"],
+        "difficulty": "hard"
+      },
+      {
+        "id": 12,
+        "title": "B1 Review & Extended Tasks",
+        "topics": ["review_all", "discussions", "writing_tasks"],
+        "key_grammar": ["all_B1_grammar"],
+        "key_vocabulary": ["all_B1_vocabulary"],
         "difficulty": "hard"
       }
     ]
